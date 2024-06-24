@@ -1,16 +1,77 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-@import url('D:\projects\photo gallary\assests\colors.css');
+@import url('./colors.css');
 
-body h1,h2,h3,h4,h5,p{
+body h1,
+h2,
+h3,
+h4,
+h5,
+p {
     margin: 0px;
     padding: 0px;
-    font-family: 'Press Start 2p',cursive;
+    font-family: 'Press Start 2p', cursive;
 }
 
 /* Simple css for all */
-body{
+body {
     background-color: var(--beigde);
+    min-width: calc(100vh - 5rem);
+    position: relative;
+    padding-bottom: 5rem !important;
 }
-nav{
-    background-color: var(--yellow);
+
+nav {
+    background-color: var(--orange);
+
+}
+
+nav .title {
+    color: var(--red);
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.75rem;
+    padding-left: 0px;
+
+}
+
+nav .logo {
+    height: 3.0rem;
+    margin-left: 0.75rem;
+
+}
+
+nav form {
+    display: inline;
+    float: right;
+    padding-top: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+nav .search {
+    font-family: 'Press Start 2p', cursive;
+    padding: 0.25rem 0.75rem;
+
+}
+
+nav .search:focus {
+    outline: none;
+    border: 1px solid var(--red);
+}
+
+.heading {
+    text-align: center;
+    margin: 1.75rem;
+
+}
+
+footer {
+    position: absolute;
+    bottom: 0rem;
+    background-color: var(--orange);
+    width: calc(100% - 1.5rem);
+    padding: 0.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
