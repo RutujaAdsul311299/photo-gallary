@@ -16,7 +16,7 @@ p {
 body {
     background-color: var(--beigde);
     min-width: calc(100vh - 5rem);
-    position: relative;
+    /* position: relative; */
     padding-bottom: 5rem !important;
 }
 
@@ -74,4 +74,5 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    gap: 1rem;
 }
